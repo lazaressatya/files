@@ -1,3 +1,18 @@
+Mkdir <>
+Chown Ubuntu:Ubuntu <>
+Chmod 700 <>
+
+
+Docker file
+
+Vi <> and paste
+
+Chmod +x <file>
+
+sudo usermod -aG docker Ubuntu
+
+ssh-keygen -t ed25519 -C "github-actions"
+
 <h1>installation for docker and compose <h1>
 
 
@@ -70,6 +85,10 @@ echo "    docker compose version"
 
 <h1>SSH key connect command<h1>
 ssh-keygen -t ed25519 -C "github-actions"
+
+
+
+
 
 
 
