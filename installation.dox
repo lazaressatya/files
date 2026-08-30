@@ -1,3 +1,12 @@
+I am using ubuntu 24 server I need shell script to install docker and docker compose ?
+
+I need to deploy code in my buntu 24 server using ssh webfactory
+I need to use the rsync to sync all code to server and don't use known_hosts just private key for authentication.
+
+give ubuntu user permission for docker?
+
+give simple next js code to deploy
+
 Mkdir <>
 Chown Ubuntu:Ubuntu <>
 Chmod 700 <>
