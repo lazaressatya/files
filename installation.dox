@@ -196,6 +196,16 @@ sudo systemctl status nginx
 
 
 
+on:
+  push:
+    branches:
+      - develop
+    paths:
+      - "apps/**"
+  workflow_dispatch:
+
+
+
 
 
 
